@@ -128,8 +128,16 @@ curl -l -H "Content-type: application/json" -X POST -d '{"token":"13521389587"}'
 
 github
 1-添加远程地址
-git remote add origin git@github.com:gaozizhu/wechat_token_server.git
+
+```shell
+git remote add origin https://github.com/gaozizhu/wechat_token_server.git
+```
+
 $ git config branch.master.remote origin  
 $ git config branch.master.merge refs/heads/master 
  2-提交上传本地文件
- 
+
+git add . 			//将当前全部文件添加到“暂存区”
+
+git commit -m "init"	//提交到暂存区
+
