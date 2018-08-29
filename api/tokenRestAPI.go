@@ -55,4 +55,3 @@ func ModifyAccessTokenInRedis(w rest.ResponseWriter, r *rest.Request)  {
 	acessToken.ModifyAccessTokenInRedis(tredisURL,tappid,tappSecret,accesstoken,invalidtime)
 	w.WriteJson(&accesstoken)
 }
-
