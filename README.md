@@ -126,6 +126,10 @@ go get github.com/ant0ine/go-json-rest/rest
 
 curl -l -H "Content-type: application/json" -X POST -d '{"token":"13521389587"}' http://localhost:8777/accesstoken/adf
 
+
+
+
+
 github
 1-添加远程地址
 
@@ -141,3 +145,4 @@ git add . 			//将当前全部文件添加到“暂存区”
 
 git commit -m "init"	//提交到暂存区
 
+git push -u origin master
